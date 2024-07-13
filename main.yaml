@@ -1,0 +1,5 @@
+-name: iNSTAL {{component}}
+hosts: {{component}}
+become: yes
+tasks:
+ 
