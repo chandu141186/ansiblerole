@@ -29,4 +29,4 @@
  
 - name: load user data
   ansible.builtin.shell: mongo --host mongodb.chandulearn.online < /app/schema/{{component}}.js
-  when: when: component == "user" and user_count.stdout == "0" # keep double quotes
+  when: component == "user" and user_count.stdout == "0" # keep double quotes
