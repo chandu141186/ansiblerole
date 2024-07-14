@@ -3,7 +3,7 @@
       src:  mongodb.repo
       dest: /etc/yum.repos.d/mongo.repo
   
-- name: "install {{component}}"
+- name: install mongodb 
   ansible.builtin.package:
       name: mongodb-org
       state: present
